@@ -1,7 +1,7 @@
 import pygame
 
 # Clase del jugador que hereda de pygame.sprite.Sprite para usar sprites
-class Player(pygame.sprite.Sprite):
+class Player2(pygame.sprite.Sprite):
 
     def __init__(self, WIDTH, HEIGHT):
         super().__init__()  # Llama al constructor de la clase base
